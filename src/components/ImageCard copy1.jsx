@@ -9,12 +9,6 @@ import "./ImageCard.scss";
 const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
-      {
-        /*  <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />*/
-      }
-      {
-        /* <Card.ImgOverlay className="no-padding">*/
-      }
       <Container>
         <div className="intro-text">
           <div className="intro-lead-in">{subheader}</div>
@@ -22,9 +16,6 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
           {extraInfo}
         </div>
       </Container>
-      {
-        /* </Card.ImgOverlay> */
-      }
     </Card>
   );
 };
@@ -47,4 +38,4 @@ ImageCard.defaultProps = {
   extraInfo: null,
 };
 
-export default ImageCardWIMAGE;
+export default ImageCard;

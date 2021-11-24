@@ -1,7 +1,7 @@
 ---
-header: "Company Logo"
+header: "Together as One"
 subheader: ""
-imageFileName: "header-bg.jpg"
+imageFileName: "header-bg.png"
 jumpToAnchor: "Services"
 jumpToAnchorText: "Find Out More"
 ---

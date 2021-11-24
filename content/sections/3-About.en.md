@@ -1,7 +1,8 @@
 ---
 anchor: "About"
-header: "Roadmap"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+header: ""
+subheader: ""
+headerImageFileName: "header-bg.png"
 timeline: [
   {
     imageFileName: "about/1.jpg",
