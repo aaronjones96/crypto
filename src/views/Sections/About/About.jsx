@@ -18,6 +18,16 @@ const About = ({ className, frontmatter }) => {
 
   return (
     <>
+      <Image className="image-fluid section-image" fileName="about-us.png" />
+      <div className="page-section">
+        <p className="para">
+          ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+          ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+          labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+        </p>
+      </div>
       <Image className="image-fluid section-image" fileName="roadmap.png" />
       <PageSection className={className} id={anchor}>
         <Row>
@@ -44,6 +54,22 @@ const About = ({ className, frontmatter }) => {
           </Col>
         </Row>
       </PageSection>
+      <PageSection id="tokens">
+        <Image className="image-fluid section-image" fileName="tokenomics.png" />
+        <div className="page-section">
+          <p>
+            <ul>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum h</li>
+            </ul>
+          </p>
+        </div>
+      </PageSection>
+
     </>
   );
 };
